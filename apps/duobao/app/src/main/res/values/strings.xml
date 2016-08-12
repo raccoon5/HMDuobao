@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">好萌夺宝</string>
+
+    <string name="exit">再按一次退出客户端</string>
+    <string name="cancel">取消</string>
+    <string name="net_error">网络连接错误，请稍后再试</string>
+
+    <string name="main_bottom0">萌主</string>
+    <string name="main_bottom1">马上</string>
+    <string name="main_bottom2">订单</string>
+    <string name="main_bottom3">我的</string>
+
+    <!-- mengzhu -->
+    <string name="mengzhu_type0">苹果专区</string>
+    <string name="mengzhu_type1">宝宝充能</string>
+    <string name="mengzhu_type2">晒单</string>
+    <string name="mengzhu_type3">常见问题</string>
+    <string name="mengzhu_luck_title">幸运宠儿</string>
+
+</resources>

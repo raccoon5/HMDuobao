@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.haomeng.duobao.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_bottom_linear"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/main_bottom_btn0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/main_bottom0"/>
+
+        <Button
+            android:id="@+id/main_bottom_btn1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/main_bottom1"/>
+
+        <Button
+            android:id="@+id/main_bottom_btn2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/main_bottom2"/>
+
+        <Button
+            android:id="@+id/main_bottom_btn3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/main_bottom3"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/main_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_bottom_linear">
+    </FrameLayout>
+
+</RelativeLayout>
